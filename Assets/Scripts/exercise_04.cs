@@ -10,7 +10,7 @@ public class exercise_04 : MonoBehaviour
 
     private void Start()
     {
-        age = birthyear + currentyear;
+        age = currentyear - birthyear;
         Debug.Log($"If we are in {currentyear}, and you were born in {birthyear}, you are {age} years old");
     }
 
